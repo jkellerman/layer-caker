@@ -11,6 +11,7 @@ import { splitImageType } from "./blocks/splitImageType";
 import { faqType } from "./documents/faqType";
 import { pageBuilderType } from "./pageBuilderType";
 import { pageType } from "./pageType";
+import { siteSettingsType } from "./siteSettings";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [
@@ -25,5 +26,6 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     featuresType,
     heroType,
     splitImageType,
+    siteSettingsType,
   ],
 };
